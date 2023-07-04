@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-Now</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+             <h1> Search the Content </h1>
+        </div>
+        <form action="">
+            <i class="fa-solid fa-magnifying-glass fa-bounce"></i>
+            <input type="text" placeholder="search here" id="searchInput" onkeyup="search()"/>
+        </form>
+        <hr>
+
+        <div id="product-list">
+            
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2018/04/29/11/54/strawberries-3359755_640.jpg" alt="strawberry" class="photo"> 
+                <div class="details"> 
+                    <h2> Strawberry </h2>
+                    <h3> 390.95 </h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_640.jpg" alt="apple" class="photo">
+                <div class="details"> 
+                    <h2> Apple </h2>
+                    <h3> 240.56</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+       
+
+     
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2016/07/22/09/59/fruits-1534494_640.jpg" alt="peach" class="photo">
+                <div class="details"> 
+                    <h2> Peach </h2>
+                    <h3>310.00</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+    
+
+        
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2017/01/20/15/12/oranges-1995079_640.jpg" alt="orange" class="photo">
+                <div class="details"> 
+                    <h2> Orange </h2>
+                    <h3> 222.45 </h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+      
+
+
+       
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2016/04/13/07/18/blueberries-1326154_640.jpg" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> BlueBerry </h2>
+                    <h3>  549.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/5945671/pexels-photo-5945671.jpeg?auto=compress&cs=tinysrgb&w=400" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Plum </h2>
+                    <h3>  299.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/4955253/pexels-photo-4955253.jpeg?auto=compress&cs=tinysrgb&w=400" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Mango </h2>
+                    <h3>  899.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/5966630/pexels-photo-5966630.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Banana </h2>
+                    <h3>  60.00</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/3922642/pexels-photo-3922642.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Pineapple </h2>
+                    <h3>  79.59</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/4230630/pexels-photo-4230630.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Pomogranate </h2>
+                    <h3>  169.49</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/5946070/pexels-photo-5946070.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Kiwi </h2>
+                    <h3>  329.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/4397909/pexels-photo-4397909.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Muskmelon" class="photo">
+                <div class="details"> 
+                    <h2> Muskmelon </h2>
+                    <h3>  65.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/2894205/pexels-photo-2894205.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Watermelon" class="photo">
+                <div class="details"> 
+                    <h2> Watermelon </h2>
+                    <h3>  49.95</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/306800/pexels-photo-306800.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cherry" class="photo">
+                <div class="details"> 
+                    <h2> Cherry </h2>
+                    <h3>  449.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/823238/pexels-photo-823238.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Anjeer </h2>
+                    <h3>  249.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/1751537/pexels-photo-1751537.jpeg?auto=compress&cs=tinysrgb&w=400" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Grapes </h2>
+                    <h3>  119.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/3429782/pexels-photo-3429782.jpeg?auto=compress&cs=tinysrgb&w=600" alt="blue-berry" class="photo">
+                <div class="details"> 
+                    <h2> Red-berries </h2>
+                    <h3>  549.99</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+    
+
+
+       
+            <div class="product">
+                <img src="https://images.pexels.com/photos/1437598/pexels-photo-1437598.jpeg?auto=compress&cs=tinysrgb&w=400" alt="amla" class="photo">
+                <div class="details"> 
+                    <h2> DragonFruit </h2>
+                    <h3>190.88</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://media.istockphoto.com/id/1429043819/photo/custard-apple-a-cherimoya-family-fruit-with-green-and-leathery-skin.jpg?b=1&s=612x612&w=0&k=20&c=TvSB16B6nIEUy2HCqs8_DWZ0sm71bcNKMEvvPruOvTU=" alt="amla" class="photo">
+                <div class="details"> 
+                    <h2> Sitafal </h2>
+                    <h3>275.75</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.pexels.com/photos/11669555/pexels-photo-11669555.jpeg?auto=compress&cs=tinysrgb&w=400" alt="amla" class="photo">
+                <div class="details"> 
+                    <h2> JackFruit </h2>
+                    <h3>160.50</h3>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" value="ADD" class="btn btn-primary"> ADD </button>
+                    <button type="submit" value="INFO"  class="btn btn-warning"> MORE INFO</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="./cards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
